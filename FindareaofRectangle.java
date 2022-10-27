@@ -1,0 +1,17 @@
+package helloworld.java;
+
+import java.util.Scanner;
+
+public class FindareaofRectangle {
+
+	public static void main(String[] args) {
+	Scanner scanner=new Scanner(System.in);
+	System.out.println("Enter the length of Rectangle:");
+	double lenghth=scanner.nextDouble();
+	System.out.println("Enter the width of Rectangle:");
+	double width=scanner.nextDouble();
+	double area=length*width;
+	System.out.println("Area of Rectangle is:"+area);
+	}
+
+}
